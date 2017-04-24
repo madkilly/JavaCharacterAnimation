@@ -77,6 +77,9 @@ public class TiledGrayscaleMatrix {
 		return tilesY;
 	}
 	
+	public int getTileCount() {
+		return this.tiles.size();
+	}
 	
 
 }

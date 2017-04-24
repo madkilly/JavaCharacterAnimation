@@ -98,6 +98,18 @@ public class CharImgCache implements Iterable<Entry<Character, GrayscaleMatrix>>
 		return imgCache.entrySet().iterator();
 	}
 
+	public Map<Character, GrayscaleMatrix> getImgCache() {
+		return imgCache;
+	}
+
+	public static char[] getImgcharacters() {
+		return imgCharacters;
+	}
+
+	public Dimension getCharacterImageSize() {
+		return characterImageSize;
+	}
+
 	
 	
 }
